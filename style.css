@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inputCont{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(skyblue,#FFC5c5);
+    background-size: cover;
+   
+}
+.contactContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.left_container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.right_container{
+    
+}
+.left_container h2{
+    color:purple;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+hr{
+    border-color:purple;
+    border-radius: 10px;
+   
+}
+.inputClass{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    padding-left: 25px;
+}
+textarea{
+    height: 140px;
+    width: 400px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+    text-align: center;
+   
+}
+button{
+    border: 0;
+    outline: none;
+    background: linear-gradient(270deg,#ff994f,#fabd86);
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.inputClass:focus,textarea:focus{
+    border: 2px solid chocolate;
+}
+button:hover{
+    filter: brightness(120%);
+    font-weight: 600;
+}
